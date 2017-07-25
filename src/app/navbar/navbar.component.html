@@ -1,0 +1,19 @@
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded navbar-custon" *ngIf="usuarioLogado != null">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item" routerLinkActive="active">
+                <a routerLink="/portal" class="nav-link nav-link-custon">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+                <a routerLink="/logs" class="nav-link nav-link-custon">Logs</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+                <a routerLink="/configuracoes" class="nav-link nav-link-custon">Configurações</a>
+            </li>
+        </ul>
+        <button class="btn btn-custon my-2 my-sm-0" type="submit" (click)="logout()">Logout</button>
+    </div>
+    <div id="logo">
+        <img [src]="LOGO_MENU" alt="">
+    </div>
+</nav>

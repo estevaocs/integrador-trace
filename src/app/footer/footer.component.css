@@ -1,0 +1,13 @@
+.footer-box {
+    position: absolute;
+    width: 100%;
+    display: block;
+    bottom: 0px;
+    background-color: #d2d2d2;
+    height: 62px;
+    text-align: center;
+}
+
+.footer-logo {
+    width: 87%;
+}

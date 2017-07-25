@@ -1,0 +1,68 @@
+table.mytable {
+    background: #fff;
+    border: 1px solid #292b2c;
+    -moz-border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    border-radius: 5px !important;
+    margin: 50px auto;
+    cursor: pointer;
+    width: 80%;
+}
+
+.mytable thead {
+    -moz-border-radius: 5px !important;
+    -webkit-border-radius: 5px !important;
+    border-radius: 5px !important;
+}
+
+.mytable thead th {
+    border: 1px solid #292b2c;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.25rem;
+    font-weight: normal;
+    color: #292b2c;
+    text-align: left;
+    padding: 8px;
+    background-size: 100%;
+    background: #d2d2d2;
+}
+
+.mytable tbody tr td {
+    border: 1px solid #292b2c;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #5f6062;
+    font-size: 13px;
+    padding: 8px;
+}
+
+.mytable tbody tr:nth-child(2n) {
+    background: #f0f3f5;
+}
+
+.mytable tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.mytable tbody:hover>tr td {
+    filter: progid: DXImageTransform.Microsoft.Alpha(Opacity=50);
+    opacity: 0.5;
+}
+
+.mytable tbody:hover>tr:hover td {
+    text-shadow: none;
+    color: #2d2d2d;
+    filter: progid: DXImageTransform.Microsoft.Alpha(enabled=false);
+    opacity: 1;
+    transition: 0.2s all;
+}
+
+#head thead {
+    -moz-border-top-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center !important;
+    font-size: 1.25rem !important;
+    font-weight: bold !important;
+}

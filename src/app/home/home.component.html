@@ -1,0 +1,22 @@
+<div class="wrapper">
+    <table class="mytable">
+        <thead>
+            <tr>
+                <th id="head" colspan="3">Última Carga</th>
+            </tr>
+            <tr>
+                <th>Responsável</th>
+                <th>Carga</th>
+                <th>Data</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ responsavel }}</td>
+                <td style="text-align: right">{{ carga }}</td>
+                <td style="text-align: right">{{ data }}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<button (click)="efetuar-carga()" type="button" class="btn btn-primary btn-lg btn-block" aria-label="Left Align" id="botao">Efetuar Carga</button>

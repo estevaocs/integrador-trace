@@ -1,0 +1,36 @@
+a {
+    color: #f79c42;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.navbar-custon {
+    background: #014A6D
+}
+
+.font-custon {
+    color: #f79c42;
+}
+
+.nav-link-custon {
+    color: #fff !important;
+}
+
+.btn-custon {
+    color: #fff;
+    background: transparent;
+    border-color: #fff;
+}
+
+.btn-custon:hover {
+    color: #1d3a5a;
+    background: #fff;
+    border-color: #fff;
+}
+
+#logo {
+    position: absolute;
+    margin-left: 41%;
+}
