@@ -14,6 +14,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { UsuarioLogadoService } from './services/usuario-logado.service';
 
 import { routing } from './app.routing';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { routing } from './app.routing';
     FooterComponent,
     NavbarComponent,
     LogsComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    DashboardComponent
   ],
   imports: [
     routing,

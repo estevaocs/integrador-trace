@@ -9,7 +9,7 @@ import { UsuarioLogadoService } from './../services/usuario-logado.service';
 })
 export class NavbarComponent implements OnInit {
 
-  private LOGO_MENU: string = '../../assets/images/LogoHeaderW.png';
+  private LOGO_MENU = '../../assets/images/LogoHeaderW.png';
 
   constructor(private usuarioLogado: UsuarioLogadoService) {
     console.log(this.usuarioLogado);

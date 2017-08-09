@@ -7,8 +7,8 @@ import { CommonModule } from '@angular/common';
   ],
   declarations: []
 })
-export class Carga { 
-  
+export class Carga {
+
   private responsavel: string;
   private carga: number;
   private data: any;
@@ -23,7 +23,7 @@ export class Carga {
     return this.responsavel;
   }
 
-  
+
   public get getCarga(): number {
     return this.carga;
   }

@@ -9,7 +9,8 @@ export class UsuarioLogadoService {
   constructor() { }
 
   get getUsuario(): Usuario {
-    return this.usuario;
+    return this.usuario
+    ;
   }
 
   login(usuario: string, pass: string ): void {

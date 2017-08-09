@@ -10,21 +10,16 @@ import { UsuarioLogadoService } from './../services/usuario-logado.service';
 })
 export class HomeComponent implements OnInit {
 
-  responsavel:string;
-  carga:number;
-  data:string;
+  responsavel: string;
+  carga: number;
+  data: string;
 
   constructor(private usuarioLogado: UsuarioLogadoService) { }
 
   ngOnInit() {
     this.responsavel = 'Automático';
-    this.carga= 6500;
-    this.data='18/07/2017 13:00';
-    
-    if(this.usuarioLogado.getUsuario() === null) {
-
-    }
-
+    this.carga = 6500;
+    this.data = '18/07/2017 13:00';
   }
 
   forcaCarga() {

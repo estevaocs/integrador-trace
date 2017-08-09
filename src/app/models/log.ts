@@ -7,8 +7,8 @@ import { CommonModule } from '@angular/common';
   ],
   declarations: []
 })
-export class Log { 
-  
+export class Log {
+
   private id: number;
   private descricao: string;
   private data: any;
@@ -26,7 +26,7 @@ export class Log {
   }
 
   get getDescricao(): string {
-    return this.descricao
+    return this.descricao;
   }
 
   get getData(): any {
